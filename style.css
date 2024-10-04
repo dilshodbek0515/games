@@ -9,7 +9,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
+    gap: 50px;
 }
 
 .container {
@@ -60,4 +62,18 @@ body {
 
 .click:hover {
     opacity: .5;
+}
+
+
+.result {
+    width: 400px;
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px; 
 }
